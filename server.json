@@ -1,0 +1,25 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "photo": "http://pngimg.com/uploads/iphone/iphone_PNG5727.png",
+            "name": "Iphone",
+            "description": "Descrição do Produto",
+            "price": 3000
+        },
+        {
+            "id": 2,
+            "photo": "https://http2.mlstatic.com/celular-samsung-galaxy-j7-octa-core-16gb-13mp5mp-dual-chip-D_NQ_NP_829781-MLB27378379902_052018-F.jpg",
+            "name": "Galaxy",
+            "description": "Descrição do Produto",
+            "price": 6000
+        },
+        {
+            "id": 3,
+            "photo": "https://mundoconectado.com.br/uploads/2020/06/29/14328/Redmi9A_preto.jpg",
+            "name": "Redmi",
+            "description": "Descrição do Produto",
+            "price": 4000
+        }
+    ]
+}
