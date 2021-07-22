@@ -4,11 +4,25 @@ export const Container = styled.div`
     width: 80%;
     margin: auto;
 
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     section {
         height: 100vh;
         width: 100%;
         background: #e2e2;
         display: flex;
+        justify-content: space-around;
 
         .product-content {
             display: grid;
