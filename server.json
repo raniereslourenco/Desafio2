@@ -2,24 +2,45 @@
     "produtos": [
         {
             "id": 1,
-            "photo": "http://pngimg.com/uploads/iphone/iphone_PNG5727.png",
-            "name": "Iphone",
-            "description": "Descrição do Produto",
-            "price": 3000
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/74156602/oculos-de-natacao-speedo-hydrovision-adulto-img.jpg",
+            "name": "Óculos de Natação Hydrovision",
+            "description": "Óculos de Natação",
+            "price": 65.85
         },
         {
             "id": 2,
-            "photo": "https://http2.mlstatic.com/celular-samsung-galaxy-j7-octa-core-16gb-13mp5mp-dual-chip-D_NQ_NP_829781-MLB27378379902_052018-F.jpg",
-            "name": "Galaxy",
-            "description": "Descrição do Produto",
-            "price": 6000
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/82305102/nadadeira-pe-de-pato-mormaii-open-adulto-img.jpg",
+            "name": "Pé de Pato Nadadeira Power Fin Natação",
+            "description": "Nadadeira Power",
+            "price": 245.40
         },
         {
             "id": 3,
-            "photo": "https://mundoconectado.com.br/uploads/2020/06/29/14328/Redmi9A_preto.jpg",
-            "name": "Redmi",
-            "description": "Descrição do Produto",
-            "price": 4000
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/M0D8WQ14/touca-de-natacao-speedo-xtrafit-adulto-img.jpg",
+            "name": "Touca Natação Xtrafit Royal",
+            "description": "Touca Royal",
+            "price": 35.90
+        },
+        {
+            "id": 4,
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/M08AX002/maio-speedo-cozy-feminino-img.jpg",
+            "name": "Maiô Natação CloroBlock Medinas",
+            "description": "Maiô Medinas",
+            "price": 159.75
+        },
+        {
+            "id": 5,
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/M0CEZ234/sunga-fila-boxer-ii-adulto-img.jpg",
+            "name": "Sunga Boxer Natação B-ready Nabaiji",
+            "description": "Sunga Boxer",
+            "price": 65.50
+        },
+        {
+            "id": 6,
+            "photo": "https://imgcentauro-a.akamaihd.net/900x900/M0EB5H04/prancha-de-natacao-speedo-acquajet-img.jpg",
+            "name": "Prancha de Natação Acquajet",
+            "description": "Prancha de Natação",
+            "price": 79.90
         }
     ]
 }
