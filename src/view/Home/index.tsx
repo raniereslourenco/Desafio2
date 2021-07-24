@@ -40,7 +40,7 @@ const Home: React.FC = () => {
     <Container>
       <div className="nav">
         <div>
-            <img src="https://www.lesamisdeposeidon.fr/ressources/images/12d7bb126a60.png" alt="vtex" width="200px" height="200px"  />
+            <img src="https://ih0.redbubble.net/image.214959484.2959/sticker,375x360.u1.png" alt="vtex" width="200px" height="200px"  />
         </div>
         <div>
         <h1>Poseidon Wear</h1>

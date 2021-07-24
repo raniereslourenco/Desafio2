@@ -7,7 +7,7 @@ export default createGlobalStyle `
         font-family: 'Roboto', sans-serif;
     }
     body {
-        background-image: url(https://wallpapercave.com/wp/gFpKYbg.jpg);
+        background-image: url(https://wallpapercave.com/wp/7hzrnAi.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
