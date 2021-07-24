@@ -8,8 +8,8 @@ import api from '../../services/api';
 
 interface IProduct{
   id: number;
-  photo: string;
-  name: string;
+  image: string;
+  title: string;
   description: string;
   price: number;
 }
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
             <img src="https://www.lesamisdeposeidon.fr/ressources/images/12d7bb126a60.png" alt="vtex" width="200px" height="200px"  />
         </div>
         <div>
-        <h1>Poseidon Aquatic Sports</h1>
+        <h1>Poseidon Wear</h1>
         </div>
         <div className="cart">
           <img src={Cart} alt="Carrinho" width="50px" height="auto" />
@@ -53,10 +53,10 @@ const Home: React.FC = () => {
       <section>
         {data.map( (prod, index) => (
           <div className="product-content" key={prod.id}>
-            <img src={prod.photo} alt={prod.name} width="auto" height="200"/>
-            <h3>{prod.name}</h3>
-            <span>{prod.description}</span>
-            <h4>{prod.price.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' })}</h4>
+            <img src={prod.image} alt={prod.title} width="150" height="200"/>
+            <h5>{prod.title}</h5>
+            {/* <span>{prod.description}</x'span> */}
+            <h6>{prod.price.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' })}</h6>
             <button onClick={() => handleCart(index) }>Add Cart</button>
           </div>
         ) )}
