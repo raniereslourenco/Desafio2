@@ -17,6 +17,7 @@ interface IProduct{
 const Home: React.FC = () => {
   const [ data, setData ] = useState<IProduct[]>([])
   const [ cart, setCart ] = useState<IProduct[]>([])
+  
 
   useEffect(() =>{
     api.get('').then(
@@ -33,6 +34,8 @@ const Home: React.FC = () => {
     localStorage.setItem( `@cart`, productStorage )
     // console.log(cart)
   }
+
+    
   return (
     <Container>
       <div className="nav">
